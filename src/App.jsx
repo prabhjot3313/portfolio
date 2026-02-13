@@ -95,18 +95,20 @@ function ScrollIndicator() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 2, duration: 1 }}
-      className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 cursor-pointer"
+      className="absolute bottom-10 w-full flex justify-center cursor-pointer z-10"
       onClick={() => {
         document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
       }}
     >
-      <span className="text-sm text-zinc-500 dark:text-zinc-400 font-medium">Scroll Down</span>
-      <motion.div
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <ChevronDown className="w-6 h-6 text-blue-500" />
-      </motion.div>
+      <div className="flex flex-col items-center gap-2">
+        <span className="text-sm text-zinc-500 dark:text-zinc-400 font-medium">Scroll Down</span>
+        <motion.div
+          animate={{ y: [0, 10, 0] }}
+          transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <ChevronDown className="w-6 h-6 text-blue-500" />
+        </motion.div>
+      </div>
     </motion.div>
   );
 }
