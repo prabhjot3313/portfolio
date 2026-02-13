@@ -148,7 +148,7 @@ export default function PortfolioApp() {
       role: "Senior Software Developer",
       period: "Jan 2023 - Present",
       location: "Toronto, ON",
-      companyLogo: "/logos/evertz_logo.png", // You can replace with actual company logo URL
+      companyLogo: "/portfolio/logos/evertz_logo.png", // You can replace with actual company logo URL
       description: [
         "Architected AI-driven workflows using OpenAI to automatically classify, summarize, and tag media assets, with real-time visual validation of video streams to ensure content integrity.",
         "Developed automated Python scripts to identify and terminate orphaned AWS resources (EC2, EBS, AMIs) across dev/test environments, reducing monthly cloud spend by ~35%.",
@@ -167,7 +167,7 @@ export default function PortfolioApp() {
       role: "Software Developer",
       period: "May 2021 - Apr 2022",
       location: "Gurgaon, India",
-      companyLogo: "/logos/deloitte_logo.png",
+      companyLogo: "/portfolio/logos/deloitte_logo.png",
 description: [
         "Developed ETL pipelines using AWS Glue with PySpark and Pandas to load and transform data from various sources into AWS S3 DataLake.",
         "Migrated database and services to a new schema, removing backward compatibility code and reducing API load time by 20%, significantly improving performance.",
@@ -185,7 +185,7 @@ description: [
       role: "Associate Software Developer",
       period: "Aug 2019 - May 2021",
       location: "Bangalore, India",
-      companyLogo: "/logos/accenture_logo.png",
+      companyLogo: "/portfolio/logos/accenture_logo.png",
       description: [
         "Developed REST APIs using Python FastAPI and Django framework",
         "Wrote unit tests achieving 85% code coverage",
@@ -990,7 +990,7 @@ description: [
               <motion.a
                 whileHover={{ scale: 1.05, y: -5 }}
                 whileTap={{ scale: 0.95 }}
-                href="/resume.pdf"
+                href="/portfolio/resume.pdf"
                 download="Prabhjot_Singh_Resume.pdf"
                 className="group relative px-10 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold text-lg shadow-xl hover:shadow-2xl transition-all overflow-hidden"
               >
