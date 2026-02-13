@@ -920,7 +920,7 @@ description: [
                   { 
                     name: "LinkedIn", 
                     icon: <FaLinkedin className="text-2xl" />, 
-                    href: "https://linkedin.com/in/yourprofile",
+                    href: "https://linkedin.com/in/prabhjotsingh3313",
                     gradient: "from-blue-500/10 to-blue-600/10",
                     border: "border-blue-500/30 hover:border-blue-500",
                     textColor: "text-blue-500 group-hover:text-blue-600"
@@ -928,7 +928,7 @@ description: [
                   { 
                     name: "GitHub", 
                     icon: <FaGithub className="text-2xl" />, 
-                    href: "https://github.com/yourusername",
+                    href: "https://github.com/prabhjot3313",
                     gradient: "from-gray-500/10 to-gray-600/10",
                     border: "border-gray-500/30 hover:border-gray-500 dark:border-gray-400/30 dark:hover:border-gray-400",
                     textColor: "text-gray-700 dark:text-gray-300 group-hover:text-gray-900 dark:group-hover:text-gray-100"
